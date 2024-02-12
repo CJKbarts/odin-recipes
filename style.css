@@ -1,3 +1,14 @@
+.coloured-text, h2, h1{
+    color: #638889;
+}
+
+p{
+    color: black;
+}
+
+body{
+    background-color: #F9EFDB;
+}
 
 
 img {
@@ -7,4 +18,27 @@ img {
 
 h1{
     text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.recipe{
+    background-color: #EBD9B4;
+    margin: 5px;
+    padding: 20px;
+
+    display: inline-block;
+
+    border-radius: 10px;
+}
+
+.recipe:hover{
+    background-color: #9DBC98;
+}
+
+a {
+    font-size: 25px;
 }
